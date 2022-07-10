@@ -20,7 +20,6 @@ canvas{
     width: 100vw;
     height: 100vh;
     position: absolute;
-    font-family: 'Parisienne', cursive;
     z-index: 1000;
 
 }
@@ -33,6 +32,8 @@ h2{
     color: #fff;
     font-size: calc(2rem + 2vw);
     text-shadow: 2px 4px 2px rgba(0, 0, 0, 1);
+    font-family: 'Parisienne', cursive;
+
 }
 
 h2::before{
@@ -54,8 +55,8 @@ h2::before{
     cursor: pointer;
     font-family: inherit;
     color: #fff;
-    font-size: calc(6rem + 10vw);
-    text-shadow: 2px 4px 2px rgba(0, 0, 0, 1);
+    font-size: calc(1rem + 1vw);
+    /*text-shadow: 2px 4px 2px rgba(0, 0, 0, 1);*/
 }
 
 .control-r{
